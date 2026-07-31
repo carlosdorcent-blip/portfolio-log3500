@@ -1,0 +1,13 @@
+:root[data-theme='clair'] {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --accent-color: #2563eb;
+  --card-bg: #f5f5f5;
+}
+
+:root[data-theme='sombre'] {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --accent-color: #60a5fa;
+  --card-bg: #1e1e1e;
+}
