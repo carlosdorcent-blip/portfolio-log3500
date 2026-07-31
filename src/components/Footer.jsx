@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} - Portfolio Professionnel - LOG3500</p>
+      <p>© {new Date().getFullYear()} portfolio.equipe — LOG3500, ISTEAH</p>
     </footer>
   );
 }

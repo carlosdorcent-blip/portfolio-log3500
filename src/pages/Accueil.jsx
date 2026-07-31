@@ -1,11 +1,16 @@
+import { Link } from 'react-router-dom';
+
 export default function Accueil() {
   return (
-    <section>
-      <h1>Bienvenue sur notre Portfolio Professionnel</h1>
+    <section className="hero">
+      <span className="eyebrow">LOG3500 — Ete 2026</span>
+      <h1>Portfolio Professionnel de notre equipe</h1>
       <p>
-        Presentation de notre equipe, de nos competences et de nos realisations
-        dans le cadre du cours LOG3500 - Conception et programmation de sites Web I.
+        Trois etudiants, un seul depot Git : nous concevons, developpons et
+        deployons une application web full-stack de bout en bout — React
+        cote client, Express cote serveur, deploiement continu sur Railway.
       </p>
+      <Link to="/projets" className="btn">Voir nos projets →</Link>
     </section>
   );
 }

@@ -8,15 +8,16 @@ export default function Header() {
 
   return (
     <header className="site-header">
+      <span className="logo">portfolio<span>.equipe</span></span>
       <nav aria-label="Navigation principale">
-        <NavLink to="/" end>Accueil</NavLink>
-        <NavLink to="/equipe">Equipe</NavLink>
-        <NavLink to="/projets">Projets</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/" end>accueil</NavLink>
+        <NavLink to="/equipe">equipe</NavLink>
+        <NavLink to="/projets">projets</NavLink>
+        <NavLink to="/contact">contact</NavLink>
       </nav>
       <div className="controles">
         <button onClick={toggleTheme} aria-label="Changer le theme">
-          {theme === 'clair' ? 'Mode sombre' : 'Mode clair'}
+          {theme === 'clair' ? '◐ sombre' : '◑ clair'}
         </button>
         <button onClick={toggleLang} aria-label="Changer la langue">
           {lang === 'fr' ? 'EN' : 'FR'}
